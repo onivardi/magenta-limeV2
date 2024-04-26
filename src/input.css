@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply text-base font-light text-white font-poppins bg-teal text-center;
+    @apply text-base font-light text-white bg-teal text-center;
   }
   p {
     @apply mb-4;
@@ -53,5 +53,28 @@
   }
   footer {
     @apply mt-20 uppercase;
+  }
+}
+
+@layer components {
+  .button-primary {
+    @apply text-magenta font-semibold uppercase w-[170px] border-2 border-magenta rounded-lg text-center text-nowrap px-4 py-6 inline-block no-underline font-cormorant;
+  }
+
+  .button-primary:hover {
+    @apply border-cyan text-cyan;
+  }
+
+  .button-soldout {
+    background: linear-gradient(
+      to top right,
+      transparent calc(50% - 2px),
+      theme(colors.magenta50),
+      transparent calc(50% + 2px)
+    );
+    @apply text-magenta50 border-magenta50;
+  }
+  .button-soldout:hover {
+    @apply text-magenta50 border-magenta50;
   }
 }
