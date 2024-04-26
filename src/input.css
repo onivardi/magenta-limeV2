@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply text-base font-light text-white font-poppins bg-teal;
+    @apply text-base font-light text-white font-poppins bg-teal text-center;
   }
   p {
     @apply mb-4;
@@ -46,5 +46,12 @@
 
   img {
     @apply w-full max-w-full;
+  }
+
+  main {
+    @apply mb-16;
+  }
+  footer {
+    @apply mt-20 uppercase;
   }
 }
