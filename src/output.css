@@ -700,6 +700,32 @@ footer {
   color: rgb(206 197 180 / var(--tw-text-opacity));
 }
 
+.footer2 {
+  text-align: center;
+}
+
+.footer2 ul {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0px;
+}
+
+svg {
+  fill: #A4FFA2;
+}
+
+svg:hover {
+  fill: #7DE6F4;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }

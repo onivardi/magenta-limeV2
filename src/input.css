@@ -89,4 +89,18 @@
   .date {
     @apply text-tan font-pacifico;
   }
+
+  .footer2 {
+    @apply text-center;
+  }
+  .footer2 ul {
+    @apply flex items-center justify-center gap-8 p-0 mx-0 my-8 list-none flex-nowrap;
+  }
+
+  svg {
+    @apply fill-lime;
+  }
+  svg:hover {
+    @apply fill-cyan;
+  }
 }
