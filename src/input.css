@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply text-base font-light text-white bg-teal text-center;
+    @apply text-base font-light text-center text-white bg-teal;
   }
   p {
     @apply mb-4;
@@ -51,6 +51,7 @@
   main {
     @apply mb-16;
   }
+
   footer {
     @apply mt-20 uppercase;
   }
@@ -58,7 +59,7 @@
 
 @layer components {
   .button-primary {
-    @apply text-magenta font-semibold uppercase w-[170px] border-2 border-magenta rounded-lg text-center text-nowrap px-4 py-6 inline-block no-underline font-cormorant;
+    @apply text-magenta font-semibold uppercase w-[170px] border-2 border-magenta rounded-lg text-center text-nowrap px-6 py-4 inline-block no-underline font-cormorant;
   }
 
   .button-primary:hover {
