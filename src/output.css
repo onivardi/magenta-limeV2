@@ -775,6 +775,10 @@ footer {
   font-family: Pacifico, cursive;
 }
 
+.font-poppins {
+  font-family: Poppins, sans-serif;
+}
+
 @media (min-width: 768px) {
   .md\:max-w-3xl {
     max-width: 48rem;

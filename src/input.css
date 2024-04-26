@@ -9,6 +9,9 @@
   p {
     @apply my-4;
   }
+  p:has(.club) {
+    @apply font-poppins;
+  }
   a {
     @apply underline text-lime;
   }
@@ -70,7 +73,7 @@
     background: linear-gradient(
       to top right,
       transparent calc(50% - 2px),
-      theme(colors.magenta50),
+      theme("colors.magenta50"),
       transparent calc(50% + 2px)
     );
     @apply text-magenta50 border-magenta50;
