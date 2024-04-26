@@ -709,6 +709,20 @@ footer {
   grid-template-columns: 2fr 1fr;
 }
 
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.from-black {
+  --tw-gradient-from: #050D14 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(5 13 20 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-teal {
+  --tw-gradient-to: #2E6D81 var(--tw-gradient-to-position);
+}
+
 .text-left {
   text-align: left;
 }
