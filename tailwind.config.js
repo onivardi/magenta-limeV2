@@ -13,7 +13,9 @@ module.exports = {
         black: '#050D14',
       },
       fontFamily: {
-        'poppins': ['Poppins', 'sans-serif']
+        'poppins': ['Poppins', 'sans-serif'],
+        'pacifico': ['Pacifico', 'cursive'],
+        'cormorant': ['Cormorant Garamond', 'serif']
       }
     },
   },
