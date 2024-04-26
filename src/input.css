@@ -78,4 +78,12 @@
   .button-soldout:hover {
     @apply text-magenta50 border-magenta50;
   }
+
+  .clube {
+    @apply text-xl uppercase text-lime font-cormorant;
+  }
+
+  .date {
+    @apply text-tan font-poppins;
+  }
 }

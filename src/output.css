@@ -723,6 +723,10 @@ footer {
   display: grid;
 }
 
+.max-w-\[150px\] {
+  max-width: 150px;
+}
+
 .max-w-\[600px\] {
   max-width: 600px;
 }
@@ -731,51 +735,12 @@ footer {
   max-width: 24rem;
 }
 
-.max-w-40 {
-  max-width: 10rem;
-}
-
-.max-w-\[150px\] {
-  max-width: 150px;
-}
-
 .grid-cols-\[2fr_1fr\] {
   grid-template-columns: 2fr 1fr;
 }
 
-.items-center {
-  align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
 .self-center {
   align-self: center;
-}
-
-.border {
-  border-width: 1px;
-}
-
-.border-cyan {
-  --tw-border-opacity: 1;
-  border-color: rgb(125 230 244 / var(--tw-border-opacity));
-}
-
-.bg-gradient-to-b {
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-}
-
-.from-black {
-  --tw-gradient-from: #050D14 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(5 13 20 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.to-teal {
-  --tw-gradient-to: #2E6D81 var(--tw-gradient-to-position);
 }
 
 .py-12 {
