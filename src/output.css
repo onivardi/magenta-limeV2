@@ -449,6 +449,11 @@ video {
 body {
   --tw-bg-opacity: 1;
   background-color: rgb(46 109 129 / var(--tw-bg-opacity));
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  --tw-gradient-from: #050D14 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(5 13 20 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #2E6D81 var(--tw-gradient-to-position);
   text-align: center;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -728,10 +733,6 @@ footer {
 
 .self-center {
   align-self: center;
-}
-
-.justify-self-end {
-  justify-self: end;
 }
 
 .bg-gradient-to-b {
