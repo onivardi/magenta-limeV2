@@ -685,6 +685,21 @@ footer {
   color: #F47DDA80;
 }
 
+.clube {
+  font-family: Cormorant Garamond, serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(164 255 162 / var(--tw-text-opacity));
+}
+
+.date {
+  font-family: Pacifico, cursive;
+  --tw-text-opacity: 1;
+  color: rgb(206 197 180 / var(--tw-text-opacity));
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
