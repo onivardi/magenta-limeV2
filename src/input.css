@@ -65,6 +65,14 @@
     @apply mb-16;
   }
 
+  th,
+  td {
+    @apply px-0 py-4;
+  }
+  td:last-of-type {
+    @apply font-cormorant text-magenta font-semibold;
+  }
+
   footer {
     @apply mt-20 uppercase;
   }
