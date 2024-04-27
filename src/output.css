@@ -454,7 +454,6 @@ body {
   --tw-gradient-to: rgb(5 13 20 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
   --tw-gradient-to: #2E6D81 var(--tw-gradient-to-position);
-  text-align: center;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 300;
@@ -741,6 +740,11 @@ svg:hover {
   margin-bottom: 0px;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-16 {
   margin-bottom: 4rem;
 }
@@ -781,6 +785,10 @@ svg:hover {
   max-width: 600px;
 }
 
+.max-w-lg {
+  max-width: 32rem;
+}
+
 .max-w-sm {
   max-width: 24rem;
 }
@@ -795,6 +803,23 @@ svg:hover {
 
 .self-center {
   align-self: center;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-cyan {
+  --tw-border-opacity: 1;
+  border-color: rgb(125 230 244 / var(--tw-border-opacity));
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .py-12 {
