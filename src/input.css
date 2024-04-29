@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply text-base font-light text-white bg-teal bg-gradient-to-b from-black to-teal;
+    @apply text-base font-light text-white font-cormorant bg-teal bg-gradient-to-b from-black to-teal;
   }
 
   p {
@@ -70,7 +70,7 @@
     @apply px-0 py-4;
   }
   td:last-of-type {
-    @apply font-cormorant text-magenta font-semibold;
+    @apply font-semibold font-cormorant text-magenta;
   }
 
   footer {
