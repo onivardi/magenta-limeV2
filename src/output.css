@@ -746,6 +746,10 @@ svg:hover {
   visibility: collapse;
 }
 
+.right-6 {
+  right: 1.5rem;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -1127,8 +1131,24 @@ svg:hover {
 }
 
 @media (min-width: 1024px) {
+  .lg\:relative {
+    position: relative;
+  }
+
+  .lg\:right-6 {
+    right: 1.5rem;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:grid {
     display: grid;
+  }
+
+  .lg\:w-\[300px\] {
+    width: 300px;
   }
 
   .lg\:max-w-6xl {
@@ -1142,5 +1162,9 @@ svg:hover {
   .lg\:gap-x-8 {
     -moz-column-gap: 2rem;
          column-gap: 2rem;
+  }
+
+  .lg\:p-4 {
+    padding: 1rem;
   }
 }
